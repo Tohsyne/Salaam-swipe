@@ -12,20 +12,37 @@
 .item-2{
     align-self:center;
     padding: 50px;
+    color: white;
+    font-style: normal;
+    font-family: "Playfair display";
+    font-size: 20px;
 }
 
-#team{
+/* #team{
     text-align: center;
     padding: 80px 0;
     border-bottom: 1px solid grey;
+    color: #ff6f22;
+    font-size: 28.8px;
+} */
+
+.team{
+    text-align: center;
+    padding: 80px 0;
+    border-bottom: 1px solid #50555c;
+    font-size: 28.8px;
 }
 
 #learn{
     text-align: center;
+    border-bottom: 1px solid #50555c;
+    padding: 80px 0;
 }
 
 #blog{
     text-align: center;
+    border-bottom: 1px solid #50555c;
+    padding: 80px 0;
 }
 
 .faqs{
@@ -78,8 +95,30 @@
 .h2{
     font-family: "Bitter", serif!important;
     font-size: 45px!important;
-}]
+}
 
 .section{
     background-image: url("images/bg7.jpg");
+}
+
+#caption{
+    color: #ff6f22;
+    font-family: "Bitter";
+    font-size: 28.8px;
+}
+
+#caption_content{
+    font-family: "Playfair display";
+    font-size: 26px;
+}
+
+#learn_caption{
+    color: #ff6f22;
+    font-family: "Bitter";
+    font-size: 36px;
+    font-style: normal;
+}
+
+.h3_content{
+    font-size: 32px;
 }
