@@ -1,44 +1,124 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
-   body {
-    font-family: "Open Sans", sans-serif;
-   }
-   a {
-    text-decoration: none;
-   }
-   li {
-    list-style: none;
-   }
-
-   .navbar {
+.menu{
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: space-between;
-    padding: 20px;
-    background-color: teal;
-    color: #fff;
-   }
-   .nav-links a {
-    color: #fff;
-   }
-   /* LOGO */
-   .logo {
-    font-size: 32px;
-   }
-   /* NAVBAR MENU */
-   .menu {
+}
+
+.row{
     display: flex;
-    gap: 1em;
-    font-size: 18px;
-   }
-   .menu li:hover {
-    background-color: #4c9e9e;
-    border-radius: 5px;
-    transition: 0.3s ease;
-   }
-   .menu li {
-    padding: 5px 14px;
-   }
+    justify-content: space-between;
+}
+
+.item-2{
+    align-self:center;
+    padding: 50px;
+    color: white;
+    font-style: normal;
+    font-family: "Playfair display";
+    font-size: 20px;
+}
+
+/* #team{
+    text-align: center;
+    padding: 80px 0;
+    border-bottom: 1px solid grey;
+    color: #ff6f22;
+    font-size: 28.8px;
+} */
+
+.team{
+    text-align: center;
+    padding: 80px 0;
+    border-bottom: 1px solid #50555c;
+    font-size: 28.8px;
+}
+
+#learn{
+    text-align: center;
+    border-bottom: 1px solid #50555c;
+    padding: 80px 0;
+}
+
+#blog{
+    text-align: center;
+    border-bottom: 1px solid #50555c;
+    padding: 80px 0;
+}
+
+.faqs{
+    display: flex;
+    justify-content: center;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+}
+
+.embeds{
+    display: flex;
+    justify-content: center;
+}
+
+.mt-3{
+
+}
+
+.container{
+    margin-top: 50px;
+    font-family: "PT serif", serif;
+}
+
+.navbar{
+    margin: 0px;
+}
+
+.nav-item{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+.nav-link{
+    color: #666666;
+}
+
+.nav-link:hover{
+    color: #ff6f22
+}
+
+.logo{
+    color: #ff6f22;
+    padding-left: 10px;
+}
+
+.h2{
+    font-family: "Bitter", serif!important;
+    font-size: 45px!important;
+}
+
+.section{
+    background-image: url("images/bg7.jpg");
+}
+
+#caption{
+    color: #ff6f22;
+    font-family: "Bitter";
+    font-size: 28.8px;
+}
+
+#caption_content{
+    font-family: "Playfair display";
+    font-size: 26px;
+}
+
+#learn_caption{
+    color: #ff6f22;
+    font-family: "Bitter";
+    font-size: 36px;
+    font-style: normal;
+}
+
+.h3_content{
+    font-size: 32px;
+}
