@@ -1,6 +1,7 @@
 .menu{
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
 
 .row{
@@ -35,4 +36,50 @@
 .connect{
     display: flex;
     justify-content: center;
+}
+
+.embeds{
+    display: flex;
+    justify-content: center;
+}
+
+.mt-3{
+
+}
+
+.container{
+    margin-top: 50px;
+    font-family: "PT serif", serif;
+}
+
+.navbar{
+    margin: 0px;
+}
+
+.nav-item{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+.nav-link{
+    color: #666666;
+}
+
+.nav-link:hover{
+    color: #ff6f22
+}
+
+.logo{
+    color: #ff6f22;
+    padding-left: 10px;
+}
+
+.h2{
+    font-family: "Bitter", serif!important;
+    font-size: 45px!important;
+}]
+
+.section{
+    background-image: url("images/bg7.jpg");
 }
